@@ -8,12 +8,11 @@ OpenKeychain is a product of [Confidential Technologies GmbH](https://www.cotech
 ### Information in accordance with Section §5 TMG:
 
 Confidential Technologies GmbH  
-Wilhelmsgarten 3  
-38100 Braunschweig
+Sophienstraße 40  
+38118 Braunschweig
 
 ### Represented by
 Dr.-Ing. Dominik Schürmann  
-Leif Scheppelmann  
 Vincent Breitmoser
 
 ### Register Entry
