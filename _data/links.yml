@@ -1,6 +1,3 @@
-- url: /
-  title: Home
-  
 - url: /blog
   title: Blog
   
@@ -14,4 +11,4 @@
   title: Contribute
 
 - url: https://www.heylogin.com/?utm_source=openkeychain.org
-  title: Sponsored by heylogin
+  title: Sponsor: heylogin
