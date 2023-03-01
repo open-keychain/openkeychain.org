@@ -25,5 +25,5 @@ VAT identification number: DE319442503
 Dr. Dominik Schürmann
 
 ### Contact Information
-Telephone: +49 531 22435119 (no OpenKeychain support)  
+Telephone: +49 531 61893990 (no OpenKeychain support)  
 Email: hey@heylogin.com (no OpenKeychain support)
