@@ -55,6 +55,7 @@ Besides this, several other apps work with OpenKeychain to provide encryption.
 | [PGPAuth](https://play.google.com/store/apps/details?id=org.lf_net.pgpunlocker)         | Send OpenPGP-signed requests to a server                                | [Play](https://play.google.com/store/apps/details?id=org.lf_net.pgpunlocker), [F-Droid](https://f-droid.org/app/org.lf_net.pgpunlocker)             | [GitHub](https://github.com/PGPAuth/PGPAuth_Android) |
 | [PhotoPGP](http://photopgp.com/site/)                                                   | Take photos of sensitive, private, or confidential information          | [Play](https://play.google.com/store/apps/details?id=com.photopgp.full)                                                                             |   |
 | [FairEmail](https://email.faircode.eu/)                                                 | Fully featured, open source, privacy oriented email app for Android     | [Play](https://play.google.com/store/apps/details?id=eu.faircode.email), [F-Droid](https://f-droid.org/en/packages/eu.faircode.email/)              | [GitHub](https://github.com/M66B/FairEmail) |
+| [Nekogram](https://nekogram.app/)                                                 | A third-party Telegram android app.     | [Play](https://play.google.com/store/apps/details?id=tw.nekomimi.nekogram), [F-Droid](https://f-droid.org/packages/nekox.messenger/)              | [GitHub](https://github.com/NekoX-Dev/NekoX) |
 
 
 We are not actively participating in the development of each of these third-party apps.
