@@ -7,9 +7,9 @@ title: OpenKeychain
 <script src="{{site.baseurl}}/public/js/jquery/2.0.2/jquery.min.js"></script>
 
 <p style="width:130px;margin-left:auto;margin-right:auto;margin-bottom:0px">
-<a href="https://twitter.com/OpenKeychain">
+<!-- <a href="https://x.com/OpenKeychain">
   <img src="{{site.baseurl}}/public/images/twitter-512.png" width="30" height="30" style="margin-bottom:0px;" />
-</a>
+</a> --> <!-- Twitter is now X, and @OpenKeychain does not exist on X.com now. https://x.com/OpenKeychain -->
 <a href="https://f-droid.org/app/org.sufficientlysecure.keychain">
   <img style="margin-bottom:0px" src="{{ site.url }}/public/images/fdroid.png" width="129" height="45" />
 </a>
@@ -39,13 +39,13 @@ The auditing company Cure53 performed an intensive security audit of OpenKeychai
 
 ### Integration
 
-OpenKeychain primarily integrates with [K-9 Mail](https://k9mail.github.io/) to provide end-to-end encryption capabilities.
+OpenKeychain primarily integrates with [K-9 Mail](https://k9mail.app) to provide end-to-end encryption capabilities.
 Besides this, several other apps work with OpenKeychain to provide encryption.
 
 | App                                                                                     | Description                                                             | Install                                                                                                                                             | Open Source |
 |:--------------------------------------------------------------------------------------- |:----------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------:|:--- |
-| [K-9 Mail](https://k9mail.github.io/)                                                   | Best open source email client for Android                               | [Play](https://play.google.com/store/apps/details?id=com.fsck.k9), [F-Droid](https://f-droid.org/app/com.fsck.k9)                                   | [GitHub](https://github.com/k9mail/k-9) |
-| [Conversations](https://conversations.im/)                                              | Jabber/XMPP client with OpenPGP support                                 | [Play](https://play.google.com/store/apps/details?id=eu.siacs.conversations), [F-Droid](https://f-droid.org/app/eu.siacs.conversations)             | [GitHub](https://github.com/iNPUTmice/Conversations) |
+| [K-9 Mail](https://k9mail.app)                                                           | Best open source email client for Android                               | [Play](https://play.google.com/store/apps/details?id=com.fsck.k9), [F-Droid](https://f-droid.org/packages/com.fsck.k9/) | [GitHub](https://github.com/thunderbird/thunderbird-android) |
+| [Conversations](https://conversations.im)                                              | Jabber/XMPP client with OpenPGP support                                 | [Play](https://play.google.com/store/apps/details?id=eu.siacs.conversations), [F-Droid](https://f-droid.org/app/eu.siacs.conversations)             | [GitHub](https://github.com/iNPUTmice/Conversations) |
 | [Password Store](https://play.google.com/store/apps/details?id=dev.msfjarvis.aps)       | Password manager compatible with ["pass"](http://www.passwordstore.org) | [Play](https://play.google.com/store/apps/details?id=dev.msfjarvis.aps), [F-Droid](https://f-droid.org/repository/browse/?fdid=dev.msfjarvis.aps)   | [GitHub](https://github.com/android-password-store/Android-Password-Store) |
 | [Oversec](http://www.oversec.io/)                                                       | Transparently encrypts and decrypts any text in any app.                | [Play](https://play.google.com/store/apps/details?id=io.oversec.one)                                                                                |   |
 | [Mail.de](https://mail.de/mobile-apps/)                                                 | Mail.de email client                                                    | [Play](https://play.google.com/store/apps/details?id=de.mail.android.mailapp)                                                                       |   |
@@ -54,7 +54,7 @@ Besides this, several other apps work with OpenKeychain to provide encryption.
 | [oandbackup](https://f-droid.org/app/dk.jens.backup)                                    | Backup apps encrypted via OpenPGP                                       | [F-Droid](https://f-droid.org/app/dk.jens.backup)                                                                                                   | [GitHub](https://github.com/jensstein/oandbackup) |
 | [PGPAuth](https://play.google.com/store/apps/details?id=org.lf_net.pgpunlocker)         | Send OpenPGP-signed requests to a server                                | [Play](https://play.google.com/store/apps/details?id=org.lf_net.pgpunlocker), [F-Droid](https://f-droid.org/app/org.lf_net.pgpunlocker)             | [GitHub](https://github.com/PGPAuth/PGPAuth_Android) |
 | [PhotoPGP](http://photopgp.com/site/)                                                   | Take photos of sensitive, private, or confidential information          | [Play](https://play.google.com/store/apps/details?id=com.photopgp.full)                                                                             |   |
-| [FairEmail](https://email.faircode.eu/)                                                 | Fully featured, open source, privacy oriented email app for Android     | [Play](https://play.google.com/store/apps/details?id=eu.faircode.email), [F-Droid](https://f-droid.org/en/packages/eu.faircode.email/)              | [GitHub](https://github.com/M66B/FairEmail) |
+| [FairEmail](https://email.faircode.eu)                                                 | Fully featured, open source, privacy oriented email app for Android     | [Play](https://play.google.com/store/apps/details?id=eu.faircode.email), [F-Droid](https://f-droid.org/en/packages/eu.faircode.email/)              | [GitHub](https://github.com/M66B/FairEmail) |
 
 
 We are not actively participating in the development of each of these third-party apps.
