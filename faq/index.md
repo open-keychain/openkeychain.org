@@ -81,7 +81,7 @@ This is not a supported use case. You can, however, simply create a new key whic
 
 ## I see no suitable option in the app selection menu when trying to open a local file, what's wrong?
 
-You probably don't have any stand-alone file managers installed, like [OI File Manager](https://f-droid.org/repository/browse/?fdid=org.openintents.filemanager) or [Amaze](https://f-droid.org/repository/browse/?fdid=com.amaze.filemanager). OpenKeychain needs one in order to select files from local storage or SD card, such as for importing keys or encrypting/decrypting files.
+You probably don't have any stand-alone file managers installed, like [OI File Manager](https://github.com/openintents/filemanager/releases) or [Amaze](https://f-droid.org/repository/browse/?fdid=com.amaze.filemanager). OpenKeychain needs one in order to select files from local storage or SD card, such as for importing keys or encrypting/decrypting files.
 
 # NFC Security Tokens
 
@@ -113,7 +113,11 @@ Also, asking for a password before delete would prevent you from deleting keys w
 ## I have more than one subkey capable of signing. Which one is selected when signing with this OpenPGP key?
 
 OpenKeychain assumes that OpenPGP keys hold one usable signing subkey only and selects the first non-revoked non-expired non-stripped one it finds in the unordered list of subkeys.
-We consider having more than one valid signing subkey an advanced usecase. You can either strip subkeys that should not be used using OpenKeychain's edit key screen or explicitly select the right subkeys when exporting from gpg with ``gpg --export-secret-subkeys``.
+We consider having more than one valid signing subkey an advanced usecase. You can either strip subkeys that should not be used using _OpenKeychain's edit key screen_ or
+explicitly select the right subkeys when exporting from gpg with
+```bash
+gpg --output secret-subkeys --export-secret-subkeys SUBKEYID! [SUBKEYID! ..]
+```
 
 ## Where can I find more information about OpenKeychain's security model and design decisions?
 
@@ -123,7 +127,8 @@ Head over to our [Wiki](https://github.com/open-keychain/open-keychain/wiki).
 
 ## A wrong primary user id is shown when searching on a Keyserver
 
-Unfortunately, this is a bug in the SKS Keyserver software. Its machine-readable output returns the user ids in an arbitrary order. Read the [related bug](https://bitbucket.org/skskeyserver/sks-keyserver/issue/28/primary-uid-in-machine-readable-index) report for more information.
+Unfortunately, this is a bug in the SKS Keyserver software. Its machine-readable output returns the user ids in an arbitrary order.
+Read the [related issue](https://github.com/SKS-Keyserver/sks-keyserver/issues/28) for more information.
 
 ## Not working with AOSP Mail
 
